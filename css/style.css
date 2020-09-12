@@ -6,6 +6,7 @@ body{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 p{
@@ -210,6 +211,10 @@ p{
 .produtos_icone{
     background: #000;
     padding: 20px;
+}
+
+.produtos_icone img{
+    margin: 0 auto;
 }
 
 .call{
