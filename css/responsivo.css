@@ -49,6 +49,11 @@
     .header_menu ul li a:hover{
         border-color: #FFF;
     }
+
+    .header_menu ul li a.active{
+        border-color: #FFF;
+    }
+
     /* Introdução */
     .introducao{
         margin-top: 0px;
@@ -60,6 +65,11 @@
     .introducao h1{
         font-size: 2.25em;
     }
+
+    /* Introdução Interna */
+    .introducao-interna{
+        margin-top: 0px;
+    }
     
     /* Call */
     .call{
@@ -69,6 +79,18 @@
     /* Qualidade imagem */
     .qualidade::after{
         display: none;
+    }
+
+    /* Sobre */
+    .missao-sobre p{
+        padding-right: 0px;
+        font-style: .875em;
+        line-height: 20px;
+    }
+
+    .subtitulo-interno ul li{
+        font-style: .875em;
+        line-height: 25px;
     }
     
 }
