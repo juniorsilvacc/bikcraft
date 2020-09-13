@@ -1,6 +1,24 @@
 /* Estilo para tabletes */
 @media only screen and (min-width: 788px) and (max-width: 979px){
-    
+    /* Qualidade home */
+    .qualidade::after{
+        right: 66px;
+    }
+
+    .qualidade_lista li{
+        padding: 0 10px;
+    }
+
+    /* Footer */
+    .footer_redes ul li a{
+        border: 3px solid #FEC63E;
+        display: block;
+        padding: 6px;
+    }
+    .footer_redes ul li a img{
+        width: 26px;
+        height: 26px;
+    }
 }
 
 /* Estilo para mobile */
@@ -34,8 +52,23 @@
     /* Introdução */
     .introducao{
         margin-top: 0px;
-        padding-top: 20px;
+        padding-top: 50px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
         background-size: cover;
     }
+
+    .introducao h1{
+        font-size: 2.25em;
+    }
+    
+    /* Call */
+    .call{
+        padding-top: 10px;
+    }
+
+    /* Qualidade imagem */
+    .qualidade::after{
+        display: none;
+    }
+    
 }
