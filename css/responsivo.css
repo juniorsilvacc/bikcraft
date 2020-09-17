@@ -106,12 +106,12 @@
     /* Sobre */
     .missao-sobre p{
         padding-right: 0px;
-        font-style: .875em;
+        font-size: .875em;
         line-height: 20px;
     }
 
     .subtitulo-interno ul li{
-        font-style: .875em;
+        font-size: .875em;
         line-height: 25px;
     }
 
@@ -136,7 +136,7 @@
         width: 149px;
         font-size: .875em;
         line-height: 20px;
-        padding-top: 14;
+        padding-top: 14px;
     }
 
     /* Form */
